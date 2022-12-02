@@ -1,4 +1,4 @@
-# Project Tittle; Week 1 Code Challenge
+# Project Tittle: Week 1 Code Challenge
 
 ******
 
@@ -11,9 +11,13 @@ In this Code Challenge I am going to work on 3 code challenges. The Student Grad
 ## _Challenge 1: Student Grade Generator_
 
 We are going to write a program that prompts the user to input the student marks. The input should be between zero(0) and one hundred(100) and the correct grade should be output as:
-A > 79, B > 60 to 79, C > 59 to 49, D > 40 to 49, E > less 40.
+Grade A > 79
+Grade B > 60 to 79
+Grade C > 59 to 49
+Grade D > 40 to 49
+Grade E > less 40
 
-## Challenge 2: Speed Detector
+## _Challenge 2: Speed Detector_
 
 In this case we will come up with a program which takes as input the speed of a car for example 80. If the case is such that the speed is less than 70, it should print "Ok". If the case is not as stated above, it should award the driver one penalty point and print the total number of demerit points.
 
@@ -26,10 +30,15 @@ A link is provided where we can get and use the KRA, NHIF, and NSSF values in th
 
 ******
 
-## _Project Setup_
+## Project Setup
 
-## _Author and License_
+After creating the repository on your Github account, we go ahead and create either a folder containing all the three files or separately creating each javascript file for each challenge. 
+We will go ahead and create the programs in the grader.js, speed_detector.js, and net_salary.js respectively.
+
+## Author and License
 
 I am the sole author of this entire project, all the entities of the attached files are original and under my ownership.
 
-## _Resources_
+## Resources
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals

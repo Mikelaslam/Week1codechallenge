@@ -9,15 +9,18 @@ const input = readline.createInterface(
 {
      input: process.stdin,
      output: process.stdout
-}
+});
 //Assigning the questions and giving conditions
 //The grades are determined as per the conditions set
-);
+
 input.question("Input the student marks:", function(mark){
     let marks= parseInt(mark, 10)
     {
-     if (marks<39) {
+     if (marks>0 && marks <39) {
         process.stdout.write("Grade E\n");
+    }
+    else if(marks<0) {
+        process.stdout.write("INVALID INPUT")
     }
     else if(marks>=40 && marks<=49) {
         process.stdout.write("Grade D\n");
@@ -28,13 +31,18 @@ input.question("Input the student marks:", function(mark){
     else if(marks>=60 && marks <=79) {
         process.stdout.write("Grade B\n");
     }
-
-     else if(marks>79){
+     else if(marks>79 && marks<=100){
         process.stdout.write("Grade A\n");
     }
+    else if(marks>100) {
+        process.stdout.write("INVALID INPUT\n")
     }
+    }
+    //Giving conditions for the case the entry is not a number
+    //if(isNaN(); Print out("Kindly enter a recognized character")
     if(isNaN(marks)){
         process.stdout.write("Kindly enter a recognized character\n");
     }
+    //Closing the entire process
      input.close();
 })
